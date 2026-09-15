@@ -1,0 +1,3 @@
+# An artifact repository is byte-exact: no line-ending conversion for anything, or the served
+# files stop matching their checksums.
+* -text
