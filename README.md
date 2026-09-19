@@ -13,8 +13,8 @@ maven {
 }
 ```
 
-What is in it: [Assorted Lib](https://github.com/grim3212/AssortedLib), which every Assorted mod
-builds against, and [Assorted Build](https://github.com/grim3212/AssortedBuild), the shared build
+What is in it: [Assorted Lib](https://github.com/AssortedMods/AssortedLib), which every Assorted mod
+builds against, and [Assorted Build](https://github.com/AssortedMods/AssortedBuild), the shared build
 plugins and version catalog. The mods themselves ship on Modrinth and CurseForge.
 
 ## Publishing
