@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.grim3212.assorted.build",
+    "module": "plugin",
+    "version": "26.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugin-26.3.0.jar",
+          "url": "plugin-26.3.0.jar",
+          "size": 282554,
+          "sha512": "4451bc93f930e89644b30f0b2386f2b356588bc871809263bb8210d544cb51e2d0241c669af8169d0ae112a3301119bcfa709afd42c886cba46baee423b91d15",
+          "sha256": "5d09f775d57748c72fe5cd01c0c086ab3255a8ebbb2c08729b22320db0d2ee62",
+          "sha1": "722b21abf17afd343d460d294961022effa9cbbb",
+          "md5": "73801a6cd05ab4fdf1ceae7c043ad89d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.neoforged",
+          "module": "moddev-gradle",
+          "version": {
+            "requires": "2.0.148"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loom",
+          "version": {
+            "requires": "1.18.4"
+          }
+        },
+        {
+          "group": "me.modmuss50",
+          "module": "mod-publish-plugin",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.gradle.toolchains",
+          "module": "foojay-resolver",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-26.3.0.jar",
+          "url": "plugin-26.3.0.jar",
+          "size": 282554,
+          "sha512": "4451bc93f930e89644b30f0b2386f2b356588bc871809263bb8210d544cb51e2d0241c669af8169d0ae112a3301119bcfa709afd42c886cba46baee423b91d15",
+          "sha256": "5d09f775d57748c72fe5cd01c0c086ab3255a8ebbb2c08729b22320db0d2ee62",
+          "sha1": "722b21abf17afd343d460d294961022effa9cbbb",
+          "md5": "73801a6cd05ab4fdf1ceae7c043ad89d"
+        }
+      ]
+    }
+  ]
+}
