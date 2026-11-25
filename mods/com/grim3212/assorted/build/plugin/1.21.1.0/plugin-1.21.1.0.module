@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.grim3212.assorted.build",
+    "module": "plugin",
+    "version": "1.21.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "plugin-1.21.1.0.jar",
+          "url": "plugin-1.21.1.0.jar",
+          "size": 289763,
+          "sha512": "d825a51f98394f8edcb06117be78020e9926aa35617f28f1f2bdbcd6bdf422ca574dd3a8d290a176ec67b888bcafbad9f98d7d96480aea64052be56782067467",
+          "sha256": "bcc6a294283c4098e8880209a4735225c37c08f7d33bf69c3e92d4c6f6a84967",
+          "sha1": "426dd0f61723f9c032834c9268796c08ed9c08f7",
+          "md5": "28246e8d5ce594d6f5e0d6c453714c70"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.neoforged",
+          "module": "moddev-gradle",
+          "version": {
+            "requires": "2.0.148"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loom",
+          "version": {
+            "requires": "1.18.4"
+          }
+        },
+        {
+          "group": "me.modmuss50",
+          "module": "mod-publish-plugin",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.gradle.toolchains",
+          "module": "foojay-resolver",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-1.21.1.0.jar",
+          "url": "plugin-1.21.1.0.jar",
+          "size": 289763,
+          "sha512": "d825a51f98394f8edcb06117be78020e9926aa35617f28f1f2bdbcd6bdf422ca574dd3a8d290a176ec67b888bcafbad9f98d7d96480aea64052be56782067467",
+          "sha256": "bcc6a294283c4098e8880209a4735225c37c08f7d33bf69c3e92d4c6f6a84967",
+          "sha1": "426dd0f61723f9c032834c9268796c08ed9c08f7",
+          "md5": "28246e8d5ce594d6f5e0d6c453714c70"
+        }
+      ]
+    }
+  ]
+}
